@@ -70,3 +70,13 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities{
+  .gradient-title{
+    @apply font-extrabold bg-gradient-to-br from-orange-700 via-orange-400 to-orange-800 bg-clip-text tracking-tighter text-transparent pr-2 pb-2;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
